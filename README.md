@@ -5,9 +5,7 @@ Features:
 - Support create a database in a samba directory
 - Support Multi-process, Multi-thread
 
-```
-go get github.com/zeropool/go-dkv
-```
+`go get github.com/zeropool/go-dkv`
 
 ```go
 package main
