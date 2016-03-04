@@ -1,6 +1,10 @@
 # go-dkv
 Golang simple KV Database use system's file system
 
+Features:
+- Support create a database in a samba directory
+- Support Multi-process, Multi-thread
+
 ```go
 package main
 
