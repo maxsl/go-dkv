@@ -1,4 +1,4 @@
-package platform
+package dkv
 
 import (
 	"crypto/md5"
