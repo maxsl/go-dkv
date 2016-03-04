@@ -1,5 +1,5 @@
 # go-dkv
-Golang simple KV Database use system file system
+Golang simple KV Database use system's file system
 
 ```go
 package main
