@@ -21,7 +21,7 @@ type T struct {
 
 func main() {
 	// create a database under folder test
-	db, err := dkv.NewKVDB("test", false)
+	db, err := dkv.Open("test", false)
 	if err != nil {
 		panic(db)
 	}
