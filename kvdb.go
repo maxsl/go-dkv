@@ -93,7 +93,7 @@ func (p *KVDB) Cls() error {
 func (p *KVDB) Close() {
 }
 
-func NewKVDB(dbname string, readonly bool) (*KVDB, error) {
+func Open(dbname string, readonly bool) (*KVDB, error) {
 	absPath, err := filepath.Abs(dbname)
 	if err != nil {
 		return nil, err
